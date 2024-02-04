@@ -15,7 +15,7 @@ public class Start {
 		alumno2.addAsignaturas(new Asignaturas("Ingles",4,8,9));
 		alumno2.addAsignaturas(new Asignaturas("TIC",2,3,5));
 		
-
+		
 		System.out.println(alumno1);
 		System.out.println(alumno2);
 

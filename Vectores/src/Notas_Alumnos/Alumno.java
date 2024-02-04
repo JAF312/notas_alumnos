@@ -40,8 +40,9 @@ public void addAsignaturas(Asignaturas asignatura) {
 		Asignatura[cuantosHay] = asignatura;
 		cuantosHay++;
 	}
-	System.out.println(this);
+
 }
+
 public float calcularMediaPrimeraEvaluacion() {
 	float suma=0;
 	int contador=0;
