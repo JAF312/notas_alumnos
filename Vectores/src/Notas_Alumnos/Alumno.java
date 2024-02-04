@@ -42,8 +42,8 @@ public void addAsignaturas(Asignaturas asignatura) {
 	}
 	System.out.println(this);
 }
-public int calcularMediaPrimeraEvaluacion() {
-	int suma=0;
+public float calcularMediaPrimeraEvaluacion() {
+	float suma=0;
 	int contador=0;
 	while(contador<4) {
 		suma+=Asignatura[contador].getNota1();
