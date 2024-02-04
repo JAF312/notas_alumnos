@@ -42,5 +42,7 @@ public void setNota3(int nota3) {
 public String toString() {
 	return "Asignaturas [nombre=" + nombre + ", nota1ºev=" + nota1 + ", nota2ºev=" + nota2 + ", notafinal=" + nota3 + "]";
 }
+ 
+
 
 }
