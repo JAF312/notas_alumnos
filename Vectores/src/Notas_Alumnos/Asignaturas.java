@@ -5,7 +5,11 @@ private String nombre;
 private int nota1;
 private int nota2;
 private int nota3;
-public Asignaturas() {
+public Asignaturas(String nombre, int nota1, int nota2, int nota3) {
+	this.nombre=nombre;
+	this.nota1=nota1;
+	this.nota2=nota2;
+	this.nota3=nota3;
 	
 }
 
@@ -32,6 +36,11 @@ public int getNota3() {
 }
 public void setNota3(int nota3) {
 	this.nota3 = nota3;
+}
+
+
+public String toString() {
+	return "Asignaturas [nombre=" + nombre + ", nota1ºev=" + nota1 + ", nota2ºev=" + nota2 + ", notafinal=" + nota3 + "]";
 }
 
 }

@@ -1,12 +1,17 @@
 package Notas_Alumnos;
 
+import java.util.Arrays;
+
 public class Alumno {
 private String nombre;
 private String apellidos;
-private int numero;
+private int contacto;
 private int cuantosHay;
 private Asignaturas Asignatura[];
-public Alumno() {
+public Alumno(String nombre, String apellidos,int contacto) {
+	this.nombre=nombre;
+	this.apellidos=apellidos;
+	this.contacto=contacto;
 	Asignatura = new Asignaturas[4];
 	cuantosHay=0;
 }
@@ -23,11 +28,17 @@ public String getApellidos() {
 public void setApellidos(String apellidos) {
 	this.apellidos = apellidos;
 }
-public int getNumero() {
-	return numero;
+public int getContacto() {
+	return contacto;
 }
-public void setNumero(int numero) {
-	this.numero = numero;
+public void setContacto(int contacto) {
+	this.contacto = contacto;
+}
+
+
+public String toString() {
+	return "Alumno [nombre=" + nombre + ", apellidos=" + apellidos + ", contacto=" + contacto + ", cuantosHay="
+			+ cuantosHay + ", " + Arrays.toString(Asignatura) + "]";
 }
 
 }
