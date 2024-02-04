@@ -18,8 +18,9 @@ public class Start {
 
 		System.out.println(alumno1);
 		System.out.println(alumno2);
-		alumno1.calcularMediaPrimeraEvaluacion();
-		
+
+		System.out.println("La media de la primera evaluacion de todos los alumnos es = " 
+		+ (alumno1.calcularMediaPrimeraEvaluacion()+alumno2.calcularMediaPrimeraEvaluacion())/2);
 	
 		
 		

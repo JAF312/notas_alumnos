@@ -48,10 +48,10 @@ public float calcularMediaPrimeraEvaluacion() {
 	while(contador<4) {
 		suma+=Asignatura[contador].getNota1();
 		contador++;
-		
 	}
-	System.out.println("La media de la primera evaluación es de : " +suma/4);
+	suma=suma/contador;
 	return suma;
+
 }
 
 public String toString() {
